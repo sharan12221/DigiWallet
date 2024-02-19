@@ -112,7 +112,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <button className="btn" onClick={connectToEthereum}>Connect to Metamask</button>
+      <button className="btn" onClick={connectToEthereum}>Connect to Metamask(Goerli)</button>
       {provider && (
         <div className="wallet-container">
           <p>Your smart wallet address: {walletAddress}</p>
